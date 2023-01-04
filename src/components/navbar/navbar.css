@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6e62fa;
+  background-image: linear-gradient(
+    43deg,
+    #6e62fa 0%,
+    #5770de 22%,
+    #6ba9f5 49%,
+    #57b7de 75%,
+    #62f7fa 100%
+  );
+  color: white;
+}
+
+.my-name {
+  margin: 0.5rem;
+}
+
+.nav-container ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-container li {
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: bisque;
+}
