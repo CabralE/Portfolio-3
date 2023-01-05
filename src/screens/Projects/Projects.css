@@ -1,6 +1,11 @@
 .projects-section {
   background-color: #0093e9;
-  background-image: linear-gradient(180deg, #55b7ab 0%, #0093e9 100%);
+  background-image: linear-gradient(
+    200deg,
+    #8043bc 0%,
+    #4343bc 90%,
+    #437fbc 100%
+  );
 
   background-size: cover;
   display: flex;
@@ -13,12 +18,13 @@
 
 .card {
   margin: 10px;
-  background-color: rgb(200, 200, 200);
+  background-color: #fbeaeb;
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   width: 300px;
-  color: #fff;
+  color: #2f3c7e;
+  font-weight: bold;
 }
 .card-header img {
   width: 100%;
@@ -46,8 +52,9 @@
 }
 
 .card-body p {
-  font-size: 13px;
+  font-size: 1rem;
   margin: 0 0 20px;
+  color: #2f3c7e;
 }
 
 .project-live-btn,
@@ -61,6 +68,7 @@
   background: #ffefef;
   overflow: hidden;
   color: #fff;
+  font-size: bold;
 }
 
 .live-github {
